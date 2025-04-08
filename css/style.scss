@@ -126,7 +126,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #020230;
+  background-color: #000080;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -465,7 +465,7 @@ a:focus {
 // server section
 
 .server_section {
-  background: linear-gradient(110deg, transparent 25%, #020230 25%);
+  background: linear-gradient(110deg, transparent 25%, #000080 25%);
   padding: 55px 0;
   color: $white;
 
@@ -790,7 +790,7 @@ a:focus {
 
 /* info section */
 .info_section {
-  background-color: #020230;
+  background-color: #000080;
   color: $white;
 
   h4 {
@@ -892,7 +892,7 @@ a:focus {
 
 .footer_section {
   position: relative;
-  background-color: #020230;
+  background-color: #000080;
   text-align: center;
 
   p {
