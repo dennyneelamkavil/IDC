@@ -644,6 +644,25 @@ a:focus {
   }
 }
 
+.contact-button {
+  margin-top: 40px;
+  padding: 15px 40px;
+  border: 2px solid white;
+  border-radius: 50px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background: white;
+  color: #e67e23;
+  border: 2px solid #e67e23;
+  border-color: #e67e23;
+}
+
 .server_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
