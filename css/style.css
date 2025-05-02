@@ -1071,6 +1071,83 @@ a:focus {
 }
 
 /* end info section */
+/* container that forces full‐viewport height */
+.fullpage-slider {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* make every carousel layer stretch the full container */
+.fullpage-slider .carousel,
+.fullpage-slider .carousel-inner,
+.fullpage-slider .carousel-item {
+  height: 100%;
+}
+
+/* background settings for each slide */
+.fullpage-slider .carousel-item {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* optional dark overlay for contrast */
+.fullpage-slider .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* caption styling (you can tweak margins/paddings/fonts here) */
+.fullpage-slider .carousel-caption {
+  position: absolute;
+  bottom: 30%;
+  left: 20%;
+  right: auto;
+  z-index: 2;
+  text-align: left;
+  color: #fff;
+}
+
+.fullpage-slider .caption-content {
+  max-width: 60ch;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .fullpage-slider .carousel-caption {
+    top: 50%;
+    left: 50%;
+    bottom: auto;
+    right: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 1rem;
+    width: 100%;
+  }
+
+  .fullpage-slider .caption-content {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* buttons in caption */
+.fullpage-slider .carousel-caption .btn-primary {
+  background-color: #ff4646;
+  border: 1px solid #ff4646;
+  margin-top: 1rem;
+}
+.fullpage-slider .carousel-caption .btn-primary:hover {
+  background-color: transparent;
+  color: #ff4646;
+}
+
 /* footer section*/
 .footer_section {
   position: relative;
