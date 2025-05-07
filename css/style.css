@@ -445,21 +445,12 @@ a:focus {
 }
 
 .service_section .box {
-  margin-top: 45px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   text-align: center;
   padding: 25px;
   background-color: #fafafa;
-  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -467,17 +458,10 @@ a:focus {
   width: 75px;
   height: 75px;
   background-color: #03a7d3;
-  border-radius: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  border-radius: 50%;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
   padding: 10px;
 }
@@ -490,7 +474,6 @@ a:focus {
 
 .service_section .box .detail-box {
   margin-top: 15px;
-  min-height: 50vh;
 }
 
 .service_section .box .detail-box h4 {
@@ -930,6 +913,33 @@ a:focus {
 .contact_section .form_container button:hover {
   background-color: transparent;
   color: #ff4646;
+}
+
+.contact_section .card {
+  border-radius: 0.75rem;
+}
+
+.contact_section .shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.contact_section .icon {
+  font-size: 2rem;
+}
+
+.contact_section .card-title {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.contact_section .message-box {
+  height: 100px;
+}
+
+@media (max-width: 767px) {
+  .contact_section .card-body {
+    padding: 1rem;
+  }
 }
 
 /* info section */

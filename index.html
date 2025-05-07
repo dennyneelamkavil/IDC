@@ -307,14 +307,12 @@
 
     <section class="service_section layout_padding">
       <div class="container">
-        <div class="heading_container heading_center">
+        <div class="heading_container heading_center mb-4">
           <h3 class="font-weight-bold">Our Services</h3>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="box">
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="box h-100">
               <div class="img-box">
                 <img loading="lazy" src="images/briefcase-solid.svg" alt="" />
               </div>
@@ -334,8 +332,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="box">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="box h-100">
               <div class="img-box">
                 <img loading="lazy" src="images/id-card-regular.svg" alt="" />
               </div>
@@ -354,8 +352,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="box">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="box h-100">
               <div class="img-box">
                 <img
                   loading="lazy"
@@ -379,8 +377,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="box">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="box h-100">
               <div class="img-box">
                 <img loading="lazy" src="images/pencil-solid.svg" alt="" />
               </div>
@@ -399,8 +397,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="box">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="box h-100">
               <div class="img-box">
                 <img loading="lazy" src="images/file-regular.svg" alt="" />
               </div>
@@ -419,8 +417,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="box">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="box h-100">
               <div class="img-box">
                 <img
                   loading="lazy"
@@ -626,66 +624,92 @@
 
     <!-- contact section -->
     <section class="contact_section layout_padding">
-      <div class="container text-center">
-        <div class="heading_container heading_center">
-          <h2>Get In Touch</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="contact_info">
-              <i
-                class="fa fa-envelope icon"
-                style="font-size: xx-large; padding-bottom: 20px"
-              ></i>
-              <h3>Email</h3>
-              <p>idctyping@gmail.com</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="contact_info">
-              <i
-                class="fa fa-map-marker icon"
-                style="font-size: xx-large; padding-bottom: 20px"
-              ></i>
-              <h3>Address</h3>
-              <p>FREEJ ALMURAR, DEIRA DUBAI</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="contact_info">
-              <i
-                class="fa fa-phone icon"
-                style="font-size: xx-large; padding-bottom: 20px"
-              ></i>
-              <h3>Call At</h3>
-              <p>042555355</p>
-            </div>
-          </div>
-        </div>
-        <div class="row" style="padding-top: 90px">
-          <div class="col-md-8 col-lg-6 mx-auto">
-            <div class="form_container">
-              <form action="">
-                <div>
-                  <input type="text" placeholder="Your Name" />
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <!-- Outer wrapper card -->
+            <div class="card shadow-sm p-4">
+              <div class="card-body">
+                <div class="heading_container heading_center mb-4">
+                  <h2>Get In Touch</h2>
                 </div>
-                <div>
-                  <input type="email" placeholder="Your Email" />
+
+                <!-- Contact info cards -->
+                <div class="row">
+                  <div class="col-md-4 mb-3">
+                    <div class="card text-center h-100 border-0">
+                      <div class="card-body">
+                        <i class="fa fa-envelope icon mb-2"></i>
+                        <h5 class="card-title">Email</h5>
+                        <p class="card-text">idctyping@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card text-center h-100 border-0">
+                      <div class="card-body">
+                        <i class="fa fa-map-marker icon mb-2"></i>
+                        <h5 class="card-title">Address</h5>
+                        <p class="card-text">FREEJ ALMURAR, DEIRA DUBAI</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <div class="card text-center h-100 border-0">
+                      <div class="card-body">
+                        <i class="fa fa-phone icon mb-2"></i>
+                        <h5 class="card-title">Call Us</h5>
+                        <p class="card-text">042555355</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <input type="text" placeholder="Your Phone" />
+
+                <!-- Contact form -->
+                <div class="mt-4">
+                  <div class="card border-0">
+                    <div class="card-body">
+                      <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-4">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Your Name"
+                            />
+                          </div>
+                          <div class="form-group col-md-4">
+                            <input
+                              type="email"
+                              class="form-control"
+                              placeholder="Your Email"
+                            />
+                          </div>
+                          <div class="form-group col-md-4">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Your Phone"
+                            />
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-12">
+                            <input
+                              type="text"
+                              class="form-control message-box"
+                              placeholder="Message"
+                            />
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                          Send
+                        </button>
+                      </form>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    class="message-box"
-                    placeholder="Message"
-                  />
-                </div>
-                <div class="btn_box">
-                  <button>SEND</button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
