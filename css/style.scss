@@ -31,7 +31,7 @@ $textCol: #999;
 body {
   @include main-font;
   color: #0c0c0c;
-  background-color: #f8f8f8;
+  background-color: #E8F9FD;
   overflow-x: hidden;
 }
 
@@ -126,7 +126,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #F0FAFF;
+  background-color: #D2F2FA;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -465,7 +465,7 @@ a:focus {
 // server section
 
 .server_section {
-  background: linear-gradient(110deg, transparent 25%, #F0FAFF 25%);
+  background: linear-gradient(110deg, transparent 25%, #D2F2FA 25%);
   padding: 55px 0;
   color: $white;
 
@@ -790,7 +790,7 @@ a:focus {
 
 /* info section */
 .info_section {
-  background-color: #F0FAFF;
+  background-color: #D2F2FA;
   color: $white;
 
   h4 {
@@ -892,7 +892,7 @@ a:focus {
 
 .footer_section {
   position: relative;
-  background-color: #F0FAFF;
+  background-color: #D2F2FA;
   text-align: center;
 
   p {
